@@ -29,14 +29,14 @@ export const HomeView: React.FC<HomeViewProps> = ({
 
   // Category tile icons & covers map
   const categoryImages: Record<string, string> = {
-    'Leather Strap Watches': 'https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=800&auto=format&fit=crop',
-    'Rubber Strap Watches': 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop',
-    'Steel Watches': 'https://images.unsplash.com/photo-1533139502658-0198f920d8e8?q=80&w=800&auto=format&fit=crop',
-    'Automatic Watches': 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=800&auto=format&fit=crop',
-    'Dress Watches': 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=800&auto=format&fit=crop',
-    'Sports Watches': 'https://images.unsplash.com/photo-1547996160-81dfa63595aa?q=80&w=800&auto=format&fit=crop',
-    "Men's Collection": 'https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=800&auto=format&fit=crop',
-    "Women's Collection": 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=800&auto=format&fit=crop'
+    'Leather Strap Watches': 'https://iili.io/Ck67FCN.jpg',
+    'Rubber Strap Watches': 'https://iili.io/Ck6RtJs.jpg',
+    'Steel Watches': 'https://iili.io/Ck4VpA7.jpg',
+    'Automatic Watches': 'https://iili.io/CkawnuR.jpg',
+    'Dress Watches': 'https://iili.io/Ck67djR.jpg',
+    'Sports Watches': 'https://iili.io/Ck65Ymv.jpg',
+    "Men's Collection": 'https://iili.io/Ck67KGI.jpg',
+    "Women's Collection": 'https://iili.io/Ck4W9te.jpg'
   };
 
   return (

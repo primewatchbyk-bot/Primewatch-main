@@ -14,7 +14,7 @@ export const Hero: React.FC<HeroProps> = ({ settings, onNavigate }) => {
     "Hello Kayode, I saw your PrimeWatch website hero and would like to inquire about your watch collection."
   );
 
-  const heroImage = settings.heroImageUrl || 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1600&auto=format&fit=crop';
+  const heroImage = "https://plain-weur-prod-public.komododecks.com/202607/27/net9ZKUPfDp6EDJSgk6L/image.jpg";
 
   return (
     <section className="relative bg-[#FAF6EE] overflow-hidden pt-8 pb-12 md:pt-12 md:pb-16 border-b border-[#E8E2D5]">

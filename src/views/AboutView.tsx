@@ -55,7 +55,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ settings, onNavigate }) =>
 
         <div className="relative rounded-2xl overflow-hidden border border-[#E8E2D5] aspect-4/3">
           <img
-            src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1000&auto=format&fit=crop"
+            src="https://iili.io/Ckr2pCN.jpg"
             alt="PrimeWatch Craftsmanship"
             className="w-full h-full object-cover"
           />
