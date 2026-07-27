@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary-olive: #5C6B3A;
+    --primary-olive-dark: #47542B;
+    --primary-olive-light: #7A8C52;
+    --bg-cream: #FAF6EE;
+    --bg-cream-card: #FFFFFF;
+    --text-charcoal: #2B2A26;
+    --text-muted: #615E57;
+    --accent-gold: #B8952E;
+    --accent-gold-hover: #9E7D22;
+    --border-light: #E8E2D5;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--bg-cream);
+    color: var(--text-charcoal);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, .font-serif, .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom Utilities for PrimeWatch Theme */
+.bg-cream {
+  background-color: #FAF6EE;
+}
+
+.bg-olive {
+  background-color: #5C6B3A;
+}
+
+.bg-olive-dark {
+  background-color: #47542B;
+}
+
+.bg-gold {
+  background-color: #B8952E;
+}
+
+.text-olive {
+  color: #5C6B3A;
+}
+
+.text-gold {
+  color: #B8952E;
+}
+
+.text-charcoal {
+  color: #2B2A26;
+}
+
+.border-cream-dark {
+  border-color: #E8E2D5;
+}
+
+/* Custom Scrollbar for image galleries */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

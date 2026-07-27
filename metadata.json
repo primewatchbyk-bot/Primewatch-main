@@ -1,0 +1,6 @@
+{
+  "name": "PrimeWatch by Kayode",
+  "description": "Online watch catalog for PrimeWatch by Kayode with WhatsApp ordering, multi-filter browsing, and built-in Admin Dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
