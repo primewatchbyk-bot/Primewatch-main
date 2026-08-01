@@ -260,6 +260,15 @@ type DbSettingsRow = {
   hero_title: string;
   hero_subtitle: string;
   hero_image_url: string;
+
+  leather_category_image: string;
+rubber_category_image: string;
+steel_category_image: string;
+automatic_category_image: string;
+dress_category_image: string;
+sports_category_image: string;
+mens_category_image: string;
+womens_category_image: string;
 };
 
 function fromDbSettings(row: DbSettingsRow): StoreSettings {
@@ -275,8 +284,17 @@ function fromDbSettings(row: DbSettingsRow): StoreSettings {
     heroTitle: row.hero_title,
     heroSubtitle: row.hero_subtitle,
     heroImageUrl: row.hero_image_url,
+
+    leatherCategoryImage: row.leather_category_image,
+rubberCategoryImage: row.rubber_category_image,
+steelCategoryImage: row.steel_category_image,
+automaticCategoryImage: row.automatic_category_image,
+dressCategoryImage: row.dress_category_image,
+sportsCategoryImage: row.sports_category_image,
+mensCategoryImage: row.mens_category_image,
+womensCategoryImage: row.womens_category_image,
+};
   };
-}
 
 function toDbSettings(s: StoreSettings): DbSettingsRow {
   return {
@@ -291,8 +309,17 @@ function toDbSettings(s: StoreSettings): DbSettingsRow {
     hero_title: s.heroTitle,
     hero_subtitle: s.heroSubtitle,
     hero_image_url: s.heroImageUrl,
+
+    leather_category_image: s.leatherCategoryImage,
+rubber_category_image: s.rubberCategoryImage,
+steel_category_image: s.steelCategoryImage,
+automatic_category_image: s.automaticCategoryImage,
+dress_category_image: s.dressCategoryImage,
+sports_category_image: s.sportsCategoryImage,
+mens_category_image: s.mensCategoryImage,
+womens_category_image: s.womensCategoryImage,
+};
   };
-}
 
 /* ---------------------------------------------------------------------- */
 /* Equality check used to diff old vs. new watch arrays before syncing to  */

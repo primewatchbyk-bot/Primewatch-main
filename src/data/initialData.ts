@@ -12,6 +12,15 @@ export const INITIAL_SETTINGS: StoreSettings = {
   heroTitle: 'Timeless Elegance, Handcrafted Precision.',
   heroSubtitle: 'Curated luxury and premium timepieces for the modern individual. Browse our exclusive collection and order directly on WhatsApp.',
   heroImageUrl: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1600&auto=format&fit=crop',
+
+  leatherCategoryImage: '',
+  rubberCategoryImage: '',
+  steelCategoryImage: '',
+  automaticCategoryImage: '',
+  dressCategoryImage: '',
+  sportsCategoryImage: '',
+  mensCategoryImage: '',
+  womensCategoryImage: '',
 };
 
 export const INITIAL_WATCHES: WatchProduct[] = [

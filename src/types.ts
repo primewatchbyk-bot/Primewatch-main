@@ -37,6 +37,15 @@ export interface StoreSettings {
   heroTitle: string;
   heroSubtitle: string;
   heroImageUrl: string;
+
+  leatherCategoryImage: string;
+rubberCategoryImage: string;
+steelCategoryImage: string;
+automaticCategoryImage: string;
+dressCategoryImage: string;
+sportsCategoryImage: string;
+mensCategoryImage: string;
+womensCategoryImage: string;
 }
 
 export type PageView = 'home' | 'collection' | 'new-arrivals' | 'best-sellers' | 'about' | 'contact' | 'privacy' | 'terms' | 'admin';

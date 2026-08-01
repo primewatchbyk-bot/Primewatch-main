@@ -692,6 +692,40 @@ export const AdminView: React.FC<AdminViewProps> = ({
               />
             </div>
 
+            {/* Category Cover Images */}
+            <div className="pt-4 border-t border-[#E8E2D5]">
+              <label className="text-xs font-bold uppercase tracking-wider text-[#615E57] block mb-3">
+                Category Cover Images
+              </label>
+              <div className="space-y-4">
+                {(
+                  [
+                    { key: 'leatherCategoryImage', label: 'Leather Strap Watches' },
+                    { key: 'rubberCategoryImage', label: 'Rubber Strap Watches' },
+                    { key: 'steelCategoryImage', label: 'Steel Watches' },
+                    { key: 'automaticCategoryImage', label: 'Automatic Watches' },
+                    { key: 'dressCategoryImage', label: 'Dress Watches' },
+                    { key: 'sportsCategoryImage', label: 'Sports Watches' },
+                    { key: 'mensCategoryImage', label: "Men's Collection" },
+                    { key: 'womensCategoryImage', label: "Women's Collection" },
+                  ] as { key: keyof StoreSettings; label: string }[]
+                ).map(({ key, label }) => (
+                  <div key={key}>
+                    <label className="text-[11px] font-semibold text-[#8C887F] block mb-1.5">
+                      {label}
+                    </label>
+                    <input
+                      type="text"
+                      value={settingsForm[key]}
+                      onChange={(e) => setSettingsForm({ ...settingsForm, [key]: e.target.value })}
+                      placeholder="https://images.unsplash.com/photo-..."
+                      className="w-full bg-[#FAF6EE] border border-[#E8E2D5] rounded-xl px-3.5 py-2.5 text-xs text-[#2B2A26] focus:outline-none focus:border-[#5C6B3A]"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+
             {/* Admin Password Change */}
             <div className="pt-4 border-t border-[#E8E2D5]">
               <label className="text-xs font-bold uppercase tracking-wider text-[#615E57] block mb-2">
