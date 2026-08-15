@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://primewatch-main.vercel.app/sitemap.xml
